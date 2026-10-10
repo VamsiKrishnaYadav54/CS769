@@ -12,7 +12,7 @@ Tick `[x]` when done. Fill in the Slurm job ID and a one-line result. Commit aft
 ## Midterm (deadline: PDF on Moodle Oct 10, 11:59 PM)
 | ID | Experiment | Command | Job ID | Status | Result |
 |---|---|---|---|---|---|
-| E0 | Correctness check, Qwen (fp32) | `sbatch slurm/00_check.sbatch qwen` | | [ ] | PASS / FAIL |
+| E0 | Correctness check, Qwen (fp32) | `sbatch slurm/00_check.sbatch qwen` | 347024 and 347025 | [✅] | PASS both pairs; word-start reject ratio 1.2–2.1× |
 | E1 | Main run, Qwen, 60 prompts — fixed 2/4/6/8, entropy 0.6/0.8, word 1/2/3 | `sbatch slurm/01_main.sbatch qwen` | | [ ] | best MAT = |
 | E2 | Main run, Llama, 60 prompts (generalisation) | `sbatch slurm/01_main.sbatch llama` | | [ ] | best MAT = |
 | E3 | Tokenizer fertility, EN/HI/TE/TA (login node, optional) | `python code/fertility.py` | — | [ ] | EN = , HI = |

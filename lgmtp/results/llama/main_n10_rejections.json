@@ -1,0 +1,83 @@
+{
+  "fixed:2": {
+    "reject_rate_word_start": 0.1788775228089577,
+    "reject_rate_continuation": 0.13119834710743802,
+    "ratio": 1.3634129297564648,
+    "ws_tested": 3617,
+    "ws_rej": 647,
+    "cont_tested": 968,
+    "cont_rej": 127
+  },
+  "fixed:4": {
+    "reject_rate_word_start": 0.17598152424942262,
+    "reject_rate_continuation": 0.12259194395796848,
+    "ratio": 1.4355064335202903,
+    "ws_tested": 4330,
+    "ws_rej": 762,
+    "cont_tested": 1142,
+    "cont_rej": 140
+  },
+  "fixed:6": {
+    "reject_rate_word_start": 0.17290322580645162,
+    "reject_rate_continuation": 0.11871393239901072,
+    "ratio": 1.4564695340501792,
+    "ws_tested": 4650,
+    "ws_rej": 804,
+    "cont_tested": 1213,
+    "cont_rej": 144
+  },
+  "fixed:8": {
+    "reject_rate_word_start": 0.17869997882701671,
+    "reject_rate_continuation": 0.12181069958847737,
+    "ratio": 1.4670302315866575,
+    "ws_tested": 4723,
+    "ws_rej": 844,
+    "cont_tested": 1215,
+    "cont_rej": 148
+  },
+  "entropy:0.6": {
+    "reject_rate_word_start": 0.11465433300876339,
+    "reject_rate_continuation": 0.07548770144189991,
+    "ratio": 1.5188478496329443,
+    "ws_tested": 4108,
+    "ws_rej": 471,
+    "cont_tested": 1179,
+    "cont_rej": 89
+  },
+  "entropy:0.8": {
+    "reject_rate_word_start": 0.10544674000536625,
+    "reject_rate_continuation": 0.06690140845070422,
+    "ratio": 1.5761512716591588,
+    "ws_tested": 3727,
+    "ws_rej": 393,
+    "cont_tested": 1136,
+    "cont_rej": 76
+  },
+  "word:1": {
+    "reject_rate_word_start": 0.18914667715296893,
+    "reject_rate_continuation": 0.11944869831546708,
+    "ratio": 1.5834971818062655,
+    "ws_tested": 2543,
+    "ws_rej": 481,
+    "cont_tested": 1306,
+    "cont_rej": 156
+  },
+  "word:2": {
+    "reject_rate_word_start": 0.17759103641456583,
+    "reject_rate_continuation": 0.11850152905198777,
+    "ratio": 1.4986391976145297,
+    "ws_tested": 3570,
+    "ws_rej": 634,
+    "cont_tested": 1308,
+    "cont_rej": 155
+  },
+  "word:3": {
+    "reject_rate_word_start": 0.17664376840039253,
+    "reject_rate_continuation": 0.11951588502269289,
+    "ratio": 1.4779940621855627,
+    "ws_tested": 4076,
+    "ws_rej": 720,
+    "cont_tested": 1322,
+    "cont_rej": 158
+  }
+}

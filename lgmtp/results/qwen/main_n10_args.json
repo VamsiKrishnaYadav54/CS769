@@ -1,0 +1,11 @@
+{
+  "draft": "Qwen/Qwen2.5-0.5B-Instruct",
+  "target": "Qwen/Qwen2.5-7B-Instruct",
+  "questions": "/home/cccp/25m2125/VAMSI/CS769/lgmtp/external/Spec-Bench/data/spec_bench/question.jsonl",
+  "per_task": 10,
+  "max_new": 128,
+  "max_draft": 8,
+  "dtype": "bf16",
+  "configs": "ar,fixed:2,fixed:4,fixed:6,fixed:8,entropy:0.6,entropy:0.8,word:1,word:2,word:3",
+  "out": "/home/cccp/25m2125/VAMSI/CS769/lgmtp/results/qwen/main_n10"
+}

@@ -1,0 +1,29 @@
+{
+  "fixed:4": {
+    "reject_rate_word_start": 0.3082706766917293,
+    "reject_rate_continuation": 0.17777777777777778,
+    "ratio": 1.7340225563909772,
+    "ws_tested": 266,
+    "ws_rej": 82,
+    "cont_tested": 45,
+    "cont_rej": 8
+  },
+  "entropy:0.8": {
+    "reject_rate_word_start": 0.1925133689839572,
+    "reject_rate_continuation": 0.1590909090909091,
+    "ratio": 1.2100840336134453,
+    "ws_tested": 187,
+    "ws_rej": 36,
+    "cont_tested": 44,
+    "cont_rej": 7
+  },
+  "word:2": {
+    "reject_rate_word_start": 0.2972972972972973,
+    "reject_rate_continuation": 0.1875,
+    "ratio": 1.5855855855855856,
+    "ws_tested": 222,
+    "ws_rej": 66,
+    "cont_tested": 48,
+    "cont_rej": 9
+  }
+}

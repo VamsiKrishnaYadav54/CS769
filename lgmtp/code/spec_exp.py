@@ -8,6 +8,8 @@ Policies:
   fixed:k     draft exactly k tokens
   entropy:p   draft until the drafter's top-token probability drops below p (cap = --max_draft)
   word:w      draft until w new words have started (cap = --max_draft)
+  wconf:p     like entropy:p, but the confidence check is applied only to word-start tokens;
+              word continuations are always drafted (cap = --max_draft)
 """
 import argparse, json, time, functools
 from collections import defaultdict
@@ -106,6 +108,8 @@ def run_spec(ids, max_new, policy, param):
             if k > 0:
                 if policy == "entropy" and ptop.item() < param:
                     break
+                if policy == "wconf" and starts_word(t) and ptop.item() < param:
+                    break   # confidence check only where rejections concentrate: word starts
                 if policy == "word" and starts_word(t):
                     words += 1
                     if words >= param:
