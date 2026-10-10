@@ -3,11 +3,11 @@
 Tick `[x]` when done. Fill in the Slurm job ID and a one-line result. Commit after each tick.
 
 ## Setup
-- [ ] S1. GitHub repo created, cloned on HPC login node
-- [ ] S2. `scripts/setup_env.sh` ran — conda env `lgmtp` + Spec-Bench cloned
-- [ ] S3. Llama licences accepted on HF + `huggingface-cli login`
-- [ ] S4. `download_models.py qwen` done
-- [ ] S5. `download_models.py llama` done
+- [✅] S1. GitHub repo created, cloned on HPC login node
+- [✅] S2. `scripts/setup_env.sh` ran — conda env `lgmtp` + Spec-Bench cloned
+- [✅] S3. Llama licences accepted on HF + `huggingface-cli login`
+- [✅] S4. `download_models.py qwen` done
+- [✅] S5. `download_models.py llama` done
 
 ## Midterm (deadline: PDF on Moodle Oct 10, 11:59 PM)
 | ID | Experiment | Command | Job ID | Status | Result |
