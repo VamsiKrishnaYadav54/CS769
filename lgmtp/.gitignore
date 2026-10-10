@@ -1,0 +1,7 @@
+hf_cache/
+external/
+slurm_logs/
+__pycache__/
+*.pyc
+# raw per-token logs are large; summaries, tables and args are kept
+results/**/*_raw.jsonl
