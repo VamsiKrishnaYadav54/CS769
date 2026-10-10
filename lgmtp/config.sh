@@ -1,6 +1,6 @@
 # Shared settings, sourced by every script. Edit ROOT if you put the project elsewhere.
 export ROOT=/home/cccp/25m2125/VAMSI/CS769/lgmtp
-export CONDA_ENV=lgmtp
+export CONDA_ENV=cs769
 
 export HF_HOME=$ROOT/hf_cache
 export HF_HUB_CACHE=$HF_HOME/hub

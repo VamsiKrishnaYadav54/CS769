@@ -61,8 +61,12 @@ with open(args.questions) as f:
         q = json.loads(line)
         task = q.get("category", "mt_bench")
         task = task if task in MAIN else "mt_bench"
-        if len(by_task[task]) < args.per_task:
-            by_task[task].append(q["turns"][0])
+        by_task[task].append(q["turns"][0])
+# take evenly spaced prompts so each task's sample covers all its sub-categories
+# (the file is sorted, e.g. MT-bench starts with 10 'writing' prompts in a row)
+for t, ps in by_task.items():
+    k = min(args.per_task, len(ps))
+    by_task[t] = [ps[i * len(ps) // k] for i in range(k)]
 prompts = [(t, p) for t, ps in by_task.items() for p in ps]
 
 
