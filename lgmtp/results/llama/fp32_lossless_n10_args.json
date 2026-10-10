@@ -1,0 +1,11 @@
+{
+  "draft": "meta-llama/Llama-3.2-1B-Instruct",
+  "target": "meta-llama/Llama-3.1-8B-Instruct",
+  "questions": "/home/cccp/25m2125/VAMSI/CS769/lgmtp/external/Spec-Bench/data/spec_bench/question.jsonl",
+  "per_task": 10,
+  "max_new": 128,
+  "max_draft": 8,
+  "dtype": "fp32",
+  "configs": "ar,fixed:4,word:2",
+  "out": "/home/cccp/25m2125/VAMSI/CS769/lgmtp/results/llama/fp32_lossless_n10"
+}

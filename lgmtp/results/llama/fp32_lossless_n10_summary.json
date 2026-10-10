@@ -1,0 +1,113 @@
+{
+  "ar": {
+    "tok_per_s": 16.59915906646031,
+    "MAT": 1.0,
+    "accept_rate": null,
+    "mean_draft_len": null,
+    "rejections_at_word_start": null,
+    "base_rate_word_start": null,
+    "midword_split_rate": null,
+    "exact_match_vs_ar": null,
+    "per_task": {
+      "mt_bench": {
+        "tok_per_s": 17.546890850443432,
+        "MAT": 1.0
+      },
+      "translation": {
+        "tok_per_s": 17.606060615217515,
+        "MAT": 1.0
+      },
+      "summarization": {
+        "tok_per_s": 15.105370514179878,
+        "MAT": 1.0
+      },
+      "qa": {
+        "tok_per_s": 17.815076531692416,
+        "MAT": 1.0
+      },
+      "math_reasoning": {
+        "tok_per_s": 17.62346377872884,
+        "MAT": 1.0
+      },
+      "rag": {
+        "tok_per_s": 14.63379064915676,
+        "MAT": 1.0
+      }
+    },
+    "speedup": 1.0
+  },
+  "fixed:4": {
+    "tok_per_s": 24.579300635459784,
+    "MAT": 3.4974733295901177,
+    "accept_rate": 0.6312517660356033,
+    "mean_draft_len": 3.974171813587872,
+    "rejections_at_word_start": 0.8522222222222222,
+    "base_rate_word_start": 0.8036168409155129,
+    "midword_split_rate": 0.18593840790238234,
+    "exact_match_vs_ar": 1.0,
+    "per_task": {
+      "mt_bench": {
+        "tok_per_s": 28.479615061331724,
+        "MAT": 3.6991404011461317
+      },
+      "translation": {
+        "tok_per_s": 18.830718156123655,
+        "MAT": 2.9791666666666665
+      },
+      "summarization": {
+        "tok_per_s": 21.907161249649306,
+        "MAT": 3.330769230769231
+      },
+      "qa": {
+        "tok_per_s": 26.717196265432552,
+        "MAT": 3.404109589041096
+      },
+      "math_reasoning": {
+        "tok_per_s": 30.30664290411056,
+        "MAT": 3.980456026058632
+      },
+      "rag": {
+        "tok_per_s": 20.80853498547378,
+        "MAT": 3.3904382470119523
+      }
+    },
+    "speedup": 1.480755774256292
+  },
+  "word:2": {
+    "tok_per_s": 22.853141075258936,
+    "MAT": 2.787253141831239,
+    "accept_rate": 0.7166905444126075,
+    "mean_draft_len": 2.5062836624775584,
+    "rejections_at_word_start": 0.806615776081425,
+    "base_rate_word_start": 0.7147206303724928,
+    "midword_split_rate": 0.1812730627306273,
+    "exact_match_vs_ar": 1.0,
+    "per_task": {
+      "mt_bench": {
+        "tok_per_s": 25.27523978902917,
+        "MAT": 2.883668903803132
+      },
+      "translation": {
+        "tok_per_s": 21.802595842995817,
+        "MAT": 2.758454106280193
+      },
+      "summarization": {
+        "tok_per_s": 20.497232389940365,
+        "MAT": 2.6770186335403725
+      },
+      "qa": {
+        "tok_per_s": 24.160082940101056,
+        "MAT": 2.6945945945945944
+      },
+      "math_reasoning": {
+        "tok_per_s": 25.81590184779031,
+        "MAT": 2.9349397590361446
+      },
+      "rag": {
+        "tok_per_s": 19.57289194369267,
+        "MAT": 2.7516339869281046
+      }
+    },
+    "speedup": 1.3767649905491421
+  }
+}

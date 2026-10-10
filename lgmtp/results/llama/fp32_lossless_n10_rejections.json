@@ -1,0 +1,20 @@
+{
+  "fixed:4": {
+    "reject_rate_word_start": 0.17928938756428237,
+    "reject_rate_continuation": 0.12201834862385322,
+    "ratio": 1.469364153722314,
+    "ws_tested": 4278,
+    "ws_rej": 767,
+    "cont_tested": 1090,
+    "cont_rej": 133
+  },
+  "word:2": {
+    "reject_rate_word_start": 0.17975616671392117,
+    "reject_rate_continuation": 0.12053925455987312,
+    "ratio": 1.4912666199095697,
+    "ws_tested": 3527,
+    "ws_rej": 634,
+    "cont_tested": 1261,
+    "cont_rej": 152
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "draft": "meta-llama/Llama-3.2-1B-Instruct",
+  "target": "meta-llama/Llama-3.1-8B-Instruct",
+  "questions": "/home/cccp/25m2125/VAMSI/CS769/lgmtp/external/Spec-Bench/data/spec_bench/question.jsonl",
+  "per_task": 10,
+  "max_new": 128,
+  "max_draft": 8,
+  "dtype": "bf16",
+  "configs": "ar,fixed:4,entropy:0.6,entropy:0.8,wconf:0.6,wconf:0.8,wconf:0.9",
+  "out": "/home/cccp/25m2125/VAMSI/CS769/lgmtp/results/llama/wconf_n10"
+}
