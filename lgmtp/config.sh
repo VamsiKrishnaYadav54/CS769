@@ -5,6 +5,7 @@ export CONDA_ENV=cs769
 export HF_HOME=$ROOT/hf_cache
 export HF_HUB_CACHE=$HF_HOME/hub
 export HF_DATASETS_CACHE=$HF_HOME/datasets
+unset TRANSFORMERS_CACHE   # set globally for another project; would override HF_HUB_CACHE
 export PYTHONUNBUFFERED=1
 
 export SPECBENCH=$ROOT/external/Spec-Bench/data/spec_bench/question.jsonl
